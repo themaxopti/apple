@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+@mixin  montserrat {
+    font-family: 'Montserrat','sans-serif';
+}
+
+@media (min-width: 576px) { 
+
+}
+
+ 
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+body{
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+}
+                                                 /*HEADER*/              
+.header{
+    display: flex;
+    position: relative;
+    max-width: 1660px;
+    
+    overflow: hidden;
+    top: 46px;
+
+    .apple-img{
+        position: relative;
+        left: 92px;
+        height: 3%;
+        width: 3%;
+    }
+    .ul{
+        position: relative;
+        display:flex ;
+        list-style: none;
+        transform: translateX(-85px);
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(13px + 4 *(100vw / 1660));            /*17px */
+        line-height: 134.4%;
+    }
+    
+
+    
+    /*Стили для li*/
+    .main-li:nth-child(1){
+        position: absolute;
+        left: 293px;
+    }
+    .main-li:nth-child(2){
+        position: absolute;
+        left: 501px;
+    }
+    .main-li:nth-child(3){
+        position: absolute;
+        left: 708px;
+    }
+    .main-li:nth-child(4){
+        position: absolute;
+        white-space: nowrap;
+        left: 915px;
+    }
+    .main-li:nth-child(5){
+        position: absolute;
+        left: 1172px;
+    }
+
+    .main-li:nth-child(6){
+        border-bottom: 2px solid currentColor;
+        position: absolute;
+        white-space: nowrap;
+        left: 1397px;
+    }
+
+    .main-li{
+        border-bottom: 2px solid currentColor;
+    }
+    /*Стили для li*/
+
+    
+    }
+
+    .jobs{
+        position:absolute;
+        top: 250px;
+        left: 113px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 134.4%;
+        &__two{
+            position: absolute;
+            left: 112px;
+            top: 340px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 34px;
+        }
+    }
+    .image-phone{
+        position: relative;
+       max-width: 900px;
+        height: 730px;
+        left: 615px;
+        top: 120px;
+        &__picture{
+         width: 100%;
+         height: 100%;
+            
+        }
+    }
+
+
+.li-tup{
+    white-space: nowrap;
+}
+
+                                                                /*HEADER*/
+.width-main{
+    max-width: 1660px;
+}
+
+
+                                                                 /*MAIN-ONE*/
+.width-main{
+    max-width: 1660px;
+
+    .main-sect{
+        position: relative;
+        overflow: hidden;
+        top: 50px;
+        max-height: 803px;
+    }
+    .main-sect__img{
+        width: 100%;
+    }
+    .minimal{
+        position: relative;
+        width: 431px;
+        height: 41px;
+        left: 112px;
+        z-index: 100;
+        top: -670px;
+        font-weight: 400;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 134.4%;
+    }
+    .minimal-two{
+        position: relative;
+        width: 328px;
+        height: 319px;
+        left: 75%;
+        top: -450px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(12px + 9 * (100vw / 1660));     /*21 по макету*/
+        line-height: 134.4%;
+        color: #3D3737;
+    }
+    
+}
+                                                /*Слайдер*/
+.slider-sect{
+    position: relative;
+    max-width: 1660px;
+    height: 605px;
+    background: linear-gradient(96.59deg, #F0F0F0 2.11%, rgba(196, 196, 196, 0) 100%);
+    top: -165px;
+    
+    .owl-item{
+        width: 400px;
+    }
+
+    .owl-carousel{
+        position: relative;
+        display: block;
+        margin-top: 100px;
+        z-index: 160;
+        top: 140px;
+        width: 100%;
+        left: 225px;
+
+
+        .owl-dots{
+            margin-right: 130px;
+            margin-top: 90px;
+        }
+
+        .item{
+            max-width: 224px;
+            height: 335px;
+            z-index: 1000;
+            background-color: white;
+            border-radius: 19px;
+        }
+        
+    }
+    .card_name{
+        top: 30px;
+    }
+    .name_one{
+        position: absolute;
+        top: 215px;
+        left: 50px;
+        font-family:montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 134.4%;
+    }
+    .ii{
+        position: absolute;
+        margin-left: 29px;
+    }
+    .popo{
+        left: 22px;
+    }
+    .photo__slide{
+        position:absolute;
+        top: 40px;
+        
+    }
+    .img_position{
+        position: relative;
+        top: 66px;
+    }
+    .buy-card{
+        position: relative;
+        width: 106px;
+        height: 32px;
+        left: 58px; 
+        font-family: montserrat;
+        font-weight: 500;
+        top: 280px;
+        background: linear-gradient(92.01deg, #F1E1E1 7.84%, rgba(225, 209, 209, 0) 234.15%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.6));
+        border-radius: 59px;
+    }
+    .qq{
+        position: relative;
+        font-family: montserrat;
+        font-weight: 500;
+        transform: translateY(20px);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 120px;
+        margin-left: 50px;
+    }
+   
+    .ok_buy{
+        position: absolute;
+        transform: translate(24px,7px);
+    }
+
+   .__buy{
+    position: absolute;
+    margin-bottom: 20px;
+   }
+
+   .dots{
+       top: 50px;
+   }
+
+   .boney{
+       position: absolute;
+       right: 100px;
+   }
+}
+
+                                                /*CONT IMAGE*/
+.cont_image{
+    position: relative;
+    transform: translateY(-190px);
+    overflow: hidden;
+    max-width: 1660px;
+    &__one{ 
+        position: absolute;
+        width: 100%;   
+        .heading{
+            position: relative;
+            font-family: montserrat;
+            width: 100%;
+            color: white;
+            top: 0px;
+            font-size: 36px;
+            left: 50%;
+            transform: translate(-100px,-150px);
+        }
+        &-img{
+            width: 100%;   
+            display: block;
+        }  
+    }
+    &__two{
+        width: 100%;
+        .cont_image__two-img{
+            position: relative;
+            width: 100%;
+            display: block;
+            object-fit: cover;
+        }
+        &-text{
+            position: absolute;
+            max-width: 648px;
+            font-family: montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 134.4%;
+            top: 350px;
+            left: 550px;
+        }
+
+        &-text_two{
+            position: absolute;
+            max-width: 772px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 134.4%;
+            top: 530px;
+            left: 650px;
+        }
+}
+}
+
+.charge-photo{
+    position: relative;
+    max-width: 1660px;
+    .width-main__sect{  
+        position: absolute;  
+        width: 100%;    
+        &__sect-text{
+            position: absolute;
+            max-width: 456px;
+            height: 250px;
+            left: 112px;           
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 134.4%;
+            color: #725E5E;
+        }
+        .width-main__sect__sect-photo--img{
+            position: absolute;
+            object-fit:cover;
+            max-width: 1000px;
+            margin-left: 700px;
+            transform: translateY(-170px);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
